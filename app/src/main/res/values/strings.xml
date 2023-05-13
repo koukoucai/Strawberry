@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Strawberry</string>
+    <string name="tip1">请点击左边白色方框，\n出现光标后请输入密码</string>
+    <string name="tip2">对不起，您输入的密码有误！\n请点击返回按钮重新输入，谢谢！</string>
+    <string name="tip3">Back\nSpace\n⬅</string>
+    <string name="tip8">⬅</string>
+
+    <string name="tip4">请点击左边白色方框，\n请输入重置密码</string>
+    <string name="tip5">请点击左边白色方框，\n请输入相同密码</string>
+
+    <string name="tip6">对不起，两次密码不一致！\n请重新重置密码！</string>
+    <string name="tip7">新密码已经设置成功！\n请牢记您的密码!</string>
+
+
+
+
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">草莓蓝牙</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+
+
+    <string name="scan_device">扫描设备</string>
+    <string name="has_connectdevice_text">已配对设备</string>
+    <string name="hasnot_connectdevice_text">未配对设备</string>
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="btn_send">发送</string>
+    <string name="btn_disconnect">断开连接</string>
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">扫描</string>
+    <string name="menu_stop">停止</string>
+
+
+</resources>

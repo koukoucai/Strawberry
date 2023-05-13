@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/key_one"
+        android:text="1"
+        style="@style/keyboardStyle"/>
+
+    <Button
+        android:layout_marginLeft="60dp"
+        android:layout_toRightOf="@id/key_one"
+        android:id="@+id/key_two"
+        android:text="2"
+        style="@style/keyboardStyle"/>
+
+    <Button
+        android:layout_marginLeft="60dp"
+        android:layout_toRightOf="@id/key_two"
+        android:id="@+id/key_three"
+        android:text="3"
+        style="@style/keyboardStyle"/>
+
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/key_one"
+        android:id="@+id/key_four"
+        android:text="4"
+        style="@style/keyboardStyle"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/key_two"
+        android:layout_toRightOf="@id/key_four"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/key_five"
+        android:text="5"
+        style="@style/keyboardStyle" />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/key_three"
+        android:layout_toRightOf="@id/key_five"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/key_six"
+        android:text="6"
+        style="@style/keyboardStyle" />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/key_four"
+        android:id="@+id/key_seven"
+        android:text="7"
+        style="@style/keyboardStyle"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/key_five"
+        android:layout_toRightOf="@id/key_seven"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/key_eight"
+        android:text="8"
+        style="@style/keyboardStyle" />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/key_six"
+        android:layout_toRightOf="@id/key_eight"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/key_nine"
+        android:text="9"
+        style="@style/keyboardStyle" />
+
+    <Button
+        android:layout_alignLeft="@id/key_seven"
+        android:layout_alignRight="@id/key_eight"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/key_seven"
+        android:id="@+id/key_zero"
+        android:text="0"
+        style="@style/keyboardStyle"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/key_nine"
+        android:layout_toRightOf="@id/key_zero"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/key_cancel"
+        android:text="cancel"
+        style="@style/keyboardStyle"/>
+
+    <Button
+        android:layout_alignTop="@id/key_three"
+        android:layout_alignBottom="@id/key_six"
+        android:layout_toRightOf="@id/key_three"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/key_ok"
+        android:text="OK"
+        style="@style/keyboardStyle" />
+
+    <Button
+        android:background="@drawable/back"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/key_ok"
+        android:layout_alignTop="@id/key_nine"
+        android:layout_alignBottom="@id/key_cancel"
+        android:layout_toRightOf="@id/key_nine"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/key_back"
+        style="@style/keyboardStyle" />
+
+
+</RelativeLayout>

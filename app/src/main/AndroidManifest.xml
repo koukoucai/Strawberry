@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="strawberry.com.strawberry">
+
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+        <activity android:name=".LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".Login2Activity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity android:name=".SetPwdActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity android:name=".SetPwdIIActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+
+        <activity android:name=".ResetSuccessActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity android:name=".ResetFailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity android:name=".LoginFailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity android:name=".SettingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity android:name=".DetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+
+        <activity android:name="com.example.androidbluetooch.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:label="扫描老界面">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN"/>-->
+                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".DeviceScanActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:label="草莓蓝牙">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+
+        <service android:name="com.example.androidbluetooch.BluetoothLeService" android:enabled="true"/>
+
+
+        <activity android:name=".BlackActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+    </application>
+
+</manifest>
